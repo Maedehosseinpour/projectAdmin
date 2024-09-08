@@ -1,0 +1,37 @@
+@import './base/bootstrap.scss';
+@import './base/bootstrap-extended.scss';
+@import './base/colors.scss';
+@import './base/components.scss';
+
+// Themes
+@import './base/themes/dark-layout.scss';
+@import './base/themes/bordered-layout.scss';
+@import './base/themes/semi-dark-layout.scss';
+// @import './base/custom-rtl.scss';
+
+// React Specific
+@import 'react/index';
+
+
+
+
+.ce-block__content{
+   
+    border: 1px solid  #ccc !important;
+    border-radius: 5px;
+    background-color: #ebebeb;
+
+   
+}
+// @font-face {
+//     font-family:'yekan';
+//     src:url('../src/@core/assets/fonts/feather/fonts/Yekan.ttf');
+// }
+@import url('https://fonts.cdnfonts.com/css/persian');
+:root {
+    --bs-body-font-family: 'Persian', sans-serif ;
+}
+@font-face {
+    font-family:'sans';
+    src:url('../src/@core/assets/fonts/feather/fonts/IranSans.ttf');
+}
